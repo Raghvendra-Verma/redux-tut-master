@@ -47,7 +47,6 @@
     margin-left: 10%;
 }
 .item {
-  float: left;
   display: inline-block;
   width: 120px;
   padding: 20px;
@@ -71,6 +70,16 @@
     height: 20px;
     border-radius: 50%;
     color: #fff;
+}
+
+button.remove-btn{
+  margin-top: 5px;
+  color: white;
+  background-color: rebeccapurple;
+}
+button.add-btn{
+  margin-bottom: 5px;
+  margin-top: -30px;
 }
 /*  */
 @keyframes App-logo-spin {
